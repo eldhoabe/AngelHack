@@ -37,7 +37,7 @@
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Task Page" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="549" Margin="131,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1166">
-            <StackPanel HorizontalAlignment="Left" Height="391" Margin="58,44,0,0" VerticalAlignment="Top" Width="399" Background="#FF837676">
+            <StackPanel HorizontalAlignment="Left" Height="269" Margin="58,44,0,0" VerticalAlignment="Top" Width="399" Background="#FF837676">
                 <TextBlock Name="txblkTask" Text="Task" Height="21" Margin="25,9,281,-27" Padding="25,5,0,0" ></TextBlock>
                 <TextBox Name="tboxtask" Margin="128,0,10,0"></TextBox>
                 <TextBlock Name="txblkTaskDesc" Text="Description" Height="35" Margin="25,9,281,-27" Padding="25,5,0,0" ></TextBlock>
@@ -51,8 +51,8 @@
                 <Button Content="Add" Name="BtnAddTask" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="128,16,176,0" Click="BtnAddTask_Click"/>
 
             </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Height="391" Margin="506,44,0,0" VerticalAlignment="Top" Width="451" Background="#FFC3B8B8">
-                <ListView Name="Tasklist">
+            <StackPanel HorizontalAlignment="Left" Height="391" Margin="506,44,0,0" VerticalAlignment="Top" Width="451" Background="#FFC3B8B8" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <ListView Name="Tasklist" ScrollViewer.HorizontalScrollBarVisibility="Auto">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <CheckBox Name="chkbox">

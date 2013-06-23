@@ -159,7 +159,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\LoginRed.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\register.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />

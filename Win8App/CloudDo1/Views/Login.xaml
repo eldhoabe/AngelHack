@@ -36,17 +36,18 @@
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="409" Margin="127,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="766">
+        <Grid HorizontalAlignment="Left" Height="409" Margin="127,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1206">
             <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="186,193,0,0" VerticalAlignment="Top" Click="btnLogin_Click" Width="100"/>
             <StackPanel Margin="189,111,135,254" Orientation="Vertical">
                 <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Name="txtbxMail" VerticalAlignment="Top" Height="44" Width="266" Margin="0,0,-96,0"/>
             </StackPanel>
-            <StackPanel Margin="104,98,100,120" Orientation="Vertical">
-                <StackPanel HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="421">
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Usermail" VerticalAlignment="Top" Height="44" Width="86"/>
+            <StackPanel Margin="104,98,711,120" Orientation="Vertical">
+                <StackPanel HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="421" Margin="0,0,-30,0">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Usermail" VerticalAlignment="Top" Height="60" Width="86" Padding="0,25,0,0" FontSize="20"/>
                 </StackPanel>
             </StackPanel>
             <Button x:Name="btnSignUp" Content="SignUp" HorizontalAlignment="Left" Margin="189,294,0,0" VerticalAlignment="Top" Click="btnSignUp_Click" Width="97"/>
+            <Image HorizontalAlignment="Left" Height="221" Margin="512,111,0,0" VerticalAlignment="Top" Width="283" Source="ms-appx:///Assets/LoginRed.png" Stretch="Fill"/>
         </Grid>
 
 

@@ -42,10 +42,11 @@
                 <TextBox x:Name="boxname" Margin="255,0,190,0"/>
                 <TextBlock x:Name="blockmail" Text="Mail" Margin="181,16,349,-33" Height="22" Padding="10,2,0,0" FontSize="15"/>
                 <TextBox x:Name="boxemail" Margin="255,10,190,0"/>
-                
-                <Button Content="SignUp" Name='btnsignup' HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="253,18,227,0" Click="btnsignup_Click"/>
+
+                <Button Content="SignUp" Name='btnsignup' HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="253,18,237,0" Click="btnsignup_Click" Height="39"/>
             </StackPanel>
         </Grid>
+        <Image HorizontalAlignment="Left" Height="249" Margin="738,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="313" Stretch="UniformToFill" Source="ms-appx:///Assets/register.png"/>
 
         <VisualStateManager.VisualStateGroups>
 
